@@ -9,13 +9,17 @@
       <?php
       //écrire un texte
         //echo "Je suis une perruche";
-        
+
 
       //l'écrire 1500 fois
       /*$x = 0;
       while ($x <= 1500){
         echo "Je suis une perruches <br>";
         $x++;
+      }
+      ou
+        for($i = 0; $i <= 1500; $i++){
+        echo "je suis une perruche";
       }*/
 
       //l'écrire avec numérotation
