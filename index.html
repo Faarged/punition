@@ -6,7 +6,7 @@
     </head>
 
     <body>
-      <input type="button" onclick="color()">
+      <input type="button" onclick="chcolor()">
       <script type="text/javascript">
 
         // document.write("Je suis une perruche");
@@ -49,9 +49,37 @@
           }*/
 
           //changer la couleur via bouton
-          function color(){
+          /*function color(){
             document.bgColor = "chocolate";
-          }
+          }*/
+
+          //test couleur
+          function initArray() {
+this.length = initArray.arguments.length;
+for (var i = 0; i < this.length; i++) {
+this[i] = initArray.arguments[i];
+   }
+}
+var ctext = "Mon premier CV en ligne";
+var x = 20;
+var color = new initArray(
+"red",
+"blue",
+"green",
+"black"
+);
+
+{
+document.bgColor;
+}
+function chcolor(){
+{
+document.bgColor = color[x];
+}
+(x < color.length-1) ? x++ : x = 0;
+}
+setInterval("chcolor()",1000);
+
 
 
 
