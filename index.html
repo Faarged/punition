@@ -61,31 +61,37 @@
           }*/
 
           //test couleur
-          function initArray() {
-this.length = initArray.arguments.length;
-for (var i = 0; i < this.length; i++) {
-this[i] = initArray.arguments[i];
-   }
-}
-var x = 20;
-var color = new initArray(
-"red",
-"blue",
-"green",
-"black"
-);
+        /*  function initArray() {
+            this.length = initArray.arguments.length;
+            for (var i = 0; i < this.length; i++) {
+            this[i] = initArray.arguments[i];
+               }
+            }
+            var x = 20;
+            var color = new initArray(
+            "red",
+            "blue",
+            "green",
+            "black"
+            );
 
-{
-document.bgColor;
-}
-function chcolor(){
-{
-document.bgColor = color[x];
-}
-(x < color.length-1) ? x++ : x = 0;
-}
-setInterval("chcolor()",1000);
+            {
+            document.bgColor;
+            }
+            function chcolor(){
+            {
+            document.bgColor = color[x];
+            }
+            (x < color.length-1) ? x++ : x = 0;
+            }
+            setInterval("chcolor()",1000); */
 
+
+        function chcolor(){
+        var couleur = ["Black", "Green", "Red", "Orange", "Purple", "chocolate"];
+         var rand = Math.floor(Math.random()*couleur.length);
+         document.body.style.background = couleur[rand];     
+       }
 
 
 
